@@ -60,3 +60,5 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 app.listen(PORT, () => {
   console.log(`🚀 E-Commerce Server online and listening on http://localhost:${PORT}`);
 });
+
+export default app;
